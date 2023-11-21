@@ -1,0 +1,145 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+* {
+    color: white;
+}
+
+body {
+    font-family: 'Oswald';
+    background-color: rgb(100, 100, 100);
+}
+
+.navbar-brand {
+    color: white;
+}
+
+#navbar-logo {
+    height: 5rem; 
+    width: 3.25rem; 
+    margin-top: -13%;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.navbar {
+    background-color: rgb(35, 35, 35)!important;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link.show {
+    color: rgb(180, 180, 180);
+}
+
+.nav-link:hover {
+    color: rgb(180, 180, 180);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(205, 205, 205);
+}
+
+.contents {
+    background-color: rgb(100, 100, 100);
+}
+
+.highlight {
+    background-color: white;
+    color: rgb(100, 100, 100);
+}
+
+.transparent {
+    color: rgb(0, 0, 0, 0);
+}
+
+.table>:not(caption)>*>* {
+    background-color: rgb(100, 100, 100);
+    color: white;
+}
+
+table {
+    background-color: rgb(100, 100, 100);
+}
+
+.widgets {
+    background-color: rgb(35, 35, 35)!important;
+}
+
+.seperator {
+    background-color: rgb(95, 95, 95); 
+    height: 15vh;
+    box-shadow: 0px 1px 20px 1px inset black;
+}
+
+.dropdown-menu {
+    margin-left: -65px;
+    color: white!important;
+    background-color: rgb(35, 35, 35)!important;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.row-alt-280 {
+    display: none;
+}
+
+.row-alt-770 {
+    display: none;
+}
+
+.row-alt-480 {
+    display: none;
+}
+
+.row-alt-570 {
+    display: none;
+}
+
+.nav-OvLap-1000 {
+    display: none;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .dropdown-menu {width: 105%; margin-left: 0.15%; text-align: left!important;}
+    .navbar-nav {margin-right: -0.5rem!important;}
+}
+
+@media only screen and (max-width: 380px) {
+    .nav-OvLap-1000 {display: inherit;}
+    .navbar-toggler {width: 100%;}
+    .navbar-brand {font-size: 1.25rem!important;}
+    #navbar-logo {
+        height: 4rem; 
+        width: 2.5rem; 
+        margin-top: -13%;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .dropdown-menu {width: 98%; margin-left: 0.15%; text-align: left!important;}
+    .row-alt-280 {display: inherit;}
+    .goner-280 {display: none;}
+}
+
+@media only screen and (max-width: 770px) {
+    .goner-770 {display: none;}
+    .row-alt-770 {display: inherit;}
+}
+
+@media only screen and (max-width: 570px) {
+    .goner-570 {display: none;}
+    .row-alt-570 {display: inherit;}
+}
+
+@media only screen and (max-width: 480px) {
+    .goner-480 {display: none;}
+    .row-alt-480 {display: inherit;}
+    .vr {width: 5%; height: 50%;}
+}
